@@ -1,0 +1,94 @@
+/* Reset básico para garantir que a aparência seja consistente em todos os navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo básico para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    line-height: 1.6; /* Define a altura da linha para melhor legibilidade */
+    background-color: #f4f4f4; /* Define a cor de fundo da página */
+}
+
+/* Estilo para o cabeçalho da página */
+header {
+    background: #333; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto clara */
+    padding: 1rem; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+header h1 {
+    margin: 0; /* Remove a margem padrão do título */
+}
+
+/* Estilo para a navegação */
+nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens da lista em linha (horizontalmente) */
+    margin-right: 1rem; /* Espaçamento à direita entre os itens */
+}
+
+nav ul li a {
+    color: #fff; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estilo para a área principal do conteúdo */
+main {
+    padding: 1rem; /* Espaçamento interno ao redor do conteúdo */
+    max-width: 1200px; /* Define a largura máxima do conteúdo */
+    margin: auto; /* Centraliza o conteúdo horizontalmente */
+}
+
+/* Estilo para os formulários */
+form {
+    margin-bottom: 1.5rem; /* Espaçamento inferior para separar de outros elementos */
+}
+
+form label {
+    display: block; /* Exibe os labels como blocos para garantir que ocupem a largura total */
+    margin-bottom: 0.5rem; /* Espaçamento abaixo dos labels */
+}
+
+form input[type="text"] {
+    width: calc(100% - 100px); /* Largura ajustada para caber ao lado do botão */
+    padding: 0.5rem; /* Espaçamento interno */
+    margin-right: 0.5rem; /* Espaçamento à direita do campo de entrada */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+form button {
+    padding: 0.5rem 1rem; /* Espaçamento interno do botão */
+    background: #333; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto clara */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
+}
+
+form button:hover {
+    background: #555; /* Cor de fundo mais clara ao passar o mouse */
+}
+
+/* Estilo para o rodapé da página */
+footer {
+    background: #333; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto clara */
+    text-align: center; /* Centraliza o texto */
+    padding: 1rem; /* Espaçamento interno */
+    position: fixed; /* Fixa o rodapé na parte inferior da página */
+    width: 100%; /* Largura total da página */
+    bottom: 0; /* Posiciona o rodapé na parte inferior */
+}
